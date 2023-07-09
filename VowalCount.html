@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const string='aeioueoui'
+        const vowels=['a','e','i','o','u']
+        let len=string.length
+        let len2=vowels.length
+    //    document.write(len,len2)
+       let text=""
+
+       for(let i=0;i<len;i++){
+         for(let j=0;j<len2;j++){
+            if(string[i]==vowels[j]){
+                text+=string[i]
+            }
+         }
+       }
+       document.write(text.length)
+
+
+    
+    </script>
+</body>
+</html>
